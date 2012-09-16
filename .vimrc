@@ -29,9 +29,12 @@
 	Bundle 'spf13/vim-colors'
 	Bundle 'spf13/PIV'
 	Bundle 'scrooloose/nerdtree'
+	Bundle 'Townk/vim-autoclose'
 
 	" vim.org repositories
 	Bundle 'ScrollColors'
+	Bundle 'AutoTag'
+	Bundle 'projtags.vim'
 "
 " -----------------------------------------------------------------------------
 " /Bundles}}}1
@@ -85,6 +88,10 @@
 		"http://vim.wikia.com/wiki/Set_working_directory_to_the_current_file
 		"autocmd BufEnter * silent! lcd %:p:h
 	" NERDTree }}}2
+
+	" Easy-tags {{{2
+		let g:easytags_file = '~/.vim/tags'
+	" Easy-tags }}}2
 "
 " -----------------------------------------------------------------------------
 " Plugins }}}1
@@ -94,6 +101,7 @@
 "
 	"let g:Powerline_symbols = 'fancy'
 	let g:Powerline_symbols = 'unicode'
+	set tags+=tags;
 "
 " -----------------------------------------------------------------------------
 " Testarea }}}1
