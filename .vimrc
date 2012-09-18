@@ -53,7 +53,7 @@
         Bundle 'Shougo/neocomplcache'
     " /Github repositories }}}2
 
-    " Vim.org repositories }}}2
+    " Vim.org repositories {{{2
         Bundle 'ScrollColors'
         " Bundle 'AutoTag'
         Bundle 'projtags.vim'
@@ -75,6 +75,7 @@
     set nolist             " enable/disable list mode
     let mapleader = ","    " quick and efficient mapleader
 
+    set background=dark    " dark background
     colorscheme solarized  " current colorscheme
 
     set number             " print the line number in front of each line
